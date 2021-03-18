@@ -103,7 +103,10 @@ ul li a:active{
     .logo{
         position: absolute;
         left: 20px;
+        top: 15px;
         align-self: start;
+        height: 2em;
+        width: 2em;
     }
     .content1{
         width: 100%;
@@ -128,9 +131,12 @@ ul li a:active{
         transform: translate(0);
         opacity: 1;
     }
+    header ul li{
+        width: 100%;
+    }
     header ul li a{
         margin: 5px 0;
-        font-size: 24px;
+        font-size: 20px;
     }
     .toggle{
         display: block;
